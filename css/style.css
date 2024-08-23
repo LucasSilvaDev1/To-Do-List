@@ -38,14 +38,6 @@ RGB: 224, 224, 224
 
 */
 
-
-
-
-*{
-    box-sizing: border-box;
-    
-}
-
 body {
     background-color: #F5F5F5 ;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,22 +45,38 @@ body {
     
 }
 
+h1{
+    font-size: 40px;
+   -webkit-text-stroke: 0.7px;
+   -webkit-text-stroke-color: #cfcfce;
+}
+
 .main{ 
    list-style-type: none; 
    padding-left: 0;
+   padding: 1px;
    text-align: center;
+   background-color: #dbd5ae;
+   border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.342);
 }
 ul{
     list-style-type: none;
-}
-li{
-    display: flexbox;
-    margin: 20px;
 }
 
 a{
     text-decoration: none;
     color: #4CAF50;
-    margin:30px ;
+    margin: 0px 3px 0px 3px;
+    border: solid 2px #4CAF50;
+    padding: 3px 15px;
+    border-radius: 10px;
 } 
+
+a:hover {
+    background-color: #a5aea6;
+    color: #F5F5F5;
+    padding: 4px 16px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.429);
+}
 
