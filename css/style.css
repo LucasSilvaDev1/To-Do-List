@@ -1,0 +1,74 @@
+/*
+Tema claro
+
+1 Primária (Para Títulos e Destaques):
+Hex: #4CAF50 (Verde Suave)
+RGB: 76, 175, 80
+2 Secundária (Para Botões e Links):
+Hex: #2196F3 (Azul Médio)
+RGB: 33, 150, 243
+3 Plano de Fundo Principal:
+Hex: #F5F5F5 (Cinza Claro)
+RGB: 245, 245, 245
+4 Plano de Fundo das Tarefas:
+Hex: #FFFFFF (Branco)
+RGB: 255, 255, 255
+5 Texto (Cor Principal do Texto):
+Hex: #212121 (Cinza Escuro)
+RGB: 33, 33, 33\
+
+Tema escuro
+
+1 Primária (Para Títulos e Destaques):
+Hex: #66BB6A (Verde Claro)
+RGB: 102, 187, 106
+2 Secundária (Para Botões e Links):
+Hex: #42A5F5 (Azul Claro)
+RGB: 66, 165, 245
+3 Plano de Fundo Principal:
+Hex: #121212 (Cinza Muito Escuro)
+RGB: 18, 18, 18
+4 Plano de Fundo das Tarefas:
+Hex: #1E1E1E (Cinza Escuro)
+RGB: 30, 30, 30
+5 Texto (Cor Principal do Texto):
+Hex: #E0E0E0 (Cinza Claro)
+RGB: 224, 224, 224
+
+
+*/
+
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #F5F5F5 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4CAF50;
+    
+}
+
+.main{ 
+   list-style-type: none; 
+   padding-left: 0;
+   text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: flexbox;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #4CAF50;
+    margin:30px ;
+} 
+
