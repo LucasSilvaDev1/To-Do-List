@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do Lista de tarefas</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
   </head>
   <body>
     <header class="main">
@@ -22,14 +25,22 @@
     </header>
 
     <section class="list">
+     <h2 id="quest">Escreva sua tarefa</h2>
       <div class="input">
-        <h2 id="quest">
-          Escreva sua tarefa:</h2><input type="text" id="inp-add" /><button id="btn-add" onclick="addTarefa()">
-            +
-          </button>
+        <input type="text" id="inp-add"/>
+        <i id="btn-add" class="fi fi-rr-add-document"></i>
       </div>
-      
-      <div class="result"></div>
+      <div class="result">
+        <div class="tarefa">
+          <div id="btn-check" >
+            <i class="fi fi-rr-memo-circle-check"></i>
+          </div>
+          <div id="question">testando</div>
+          <div id="delete-btn" onclick="deletar()">
+            <i class="fi fi-rr-trash"></i>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="/JavaScript/Script.js"></script>
