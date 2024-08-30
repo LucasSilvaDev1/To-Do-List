@@ -4,7 +4,7 @@ let UserTask = document.getElementById("inp-add");
 let tasks = document.getElementById("tasks");
 
 function add() {
-  if (UserTask !== "" && UserTask !== null && UserTask !== undefined) {
+  if (UserTask !== "" && UserTask !== null && UserTask !== undefined) { 
     contador++;
     let novoItem = `
             <div id="${contador}" class="tarefa">
@@ -22,7 +22,7 @@ function add() {
 
             UserTask.value = "";
             UserTask.focus();
-  }
+ }
 }
 
 function done(id) {
