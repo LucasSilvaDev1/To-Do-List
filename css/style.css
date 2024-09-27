@@ -42,7 +42,7 @@ body {
   background-color: #121212;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-
+  margin-top: 150px;
 }
 
 h1 {
@@ -59,6 +59,8 @@ h1 {
   background-color: #4d4c4c;
   border-radius: 10px 10px 0px 0px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.342);
+  max-width: 555px;
+  margin: 0 auto;
 }
 ul {
   list-style-type: none;
@@ -86,11 +88,12 @@ a:hover {
 .list {
   background-color: #4d4c4c;
   border-radius: 0px 0px 20px 20px;
-  padding: 15px;
-  margin-top: 5px;
+  padding: 5px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.342);
   text-align: center;
   transition: ease-in-out 0.5s;
+  max-width: 550px;
+  margin: 5px auto;
 }
 
 .input {
@@ -171,10 +174,6 @@ a:hover {
   border-right: 2px solid green;
 }
 
-#question{
-    width: 100px;
-}
-
 .delete-btn{
     display: flex;
     justify-content: center;
@@ -183,4 +182,12 @@ a:hover {
     text-align: center;
     font-size: x-large;
     border-left:1px solid white ;
+}
+.btn-check:hover,.btn-checked:hover,.delete-btn:hover{
+   cursor: pointer;
+   -webkit-text-stroke: rgba(196, 196, 196, 0.418) 1px;
+}
+
+#question{
+    width: 100px;
 }
